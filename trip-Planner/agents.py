@@ -3,6 +3,7 @@ from textwrap import dedent
 from langchain.llms import OpenAI, Ollama
 from langchain_openai import ChatOpenAI
 
+
 # Creating Agents Cheat Sheet:
 # - Think backwards from a goal and think which employee you need to hire to get the job done.
 # - Define a leader of the crew who orients the other agents towards the goal.
@@ -24,9 +25,6 @@ from langchain_openai import ChatOpenAI
 # - Role is their job title
 # - goals should be actionable
 # - Backstory should be their resume
-
-
-
 
 
 # This is an example of how to define custom agents.
