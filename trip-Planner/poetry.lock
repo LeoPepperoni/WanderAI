@@ -1734,16 +1734,6 @@ files = [
 ]
 
 [[package]]
-name = "pytils"
-version = "0.4.1"
-description = "Russian-specific string utils"
-optional = false
-python-versions = "^3.7"
-files = [
-    {file = "pytils-0.4.1.tar.gz", hash = "sha256:aa109b1bc0ec4bdb7c9768520110348d8aeb0706600e6cf641272e6850e26eab"},
-]
-
-[[package]]
 name = "pyyaml"
 version = "6.0.1"
 description = "YAML parser and emitter for Python"
@@ -2252,21 +2242,6 @@ requests = ">=2.26.0"
 blobfile = ["blobfile (>=2)"]
 
 [[package]]
-name = "tools"
-version = "0.1.9"
-description = "Set of tools for web scraping projects"
-optional = false
-python-versions = "*"
-files = [
-    {file = "tools-0.1.9.tar.gz", hash = "sha256:7b7f998462cf5b02635fba76cc7cdb3653468aa46ff074b979dbecdb2a2fb014"},
-]
-
-[package.dependencies]
-lxml = "*"
-pytils = "*"
-six = "*"
-
-[[package]]
 name = "tqdm"
 version = "4.66.4"
 description = "Fast, Extensible Progress Meter"
@@ -2627,4 +2602,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.12"
-content-hash = "37f6c5b1f758bda205a1e1cccd8004bf9e199b9e1fafd518649170e2c8fa1a9b"
+content-hash = "3b2d0d3d6b0b3e1811db57516b09d4ac9de7c5b60a4024d7d0df8478cfb91634"

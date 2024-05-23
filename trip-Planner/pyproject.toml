@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "trip-planner-crew"
 version = "0.1.0"
-description = "A simple ai trip planner"
+description = ""
 authors = ["Jao Moura, Leo Pariano"]
 
 [tool.poetry.dependencies]
@@ -9,7 +9,6 @@ python = ">=3.10.0,<3.12"
 crewai = "^0.11.0"
 unstructured = '==0.10.25'
 pyowm = '3.3.0'
-tools = "^0.1.9"
 python-dotenv = "1.0.0"
 
 [tool.pyright]
